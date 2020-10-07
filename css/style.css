@@ -100,6 +100,9 @@ header{
 
   grid-column: 1 / -1;  /*Can you explain what this does? When you use the -1 it means just go to the end.*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header p{
@@ -156,6 +159,7 @@ background-color: rgba(255, 255, 255, .8);
   nav{
     padding: 30px 0px;
     /*Your code here:*/
+    text-align: right;
   }
 
   .container{
